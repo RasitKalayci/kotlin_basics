@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TanitimAktivitesi">
+
+    <TextView
+        android:id="@+id/isimtextView"
+        android:layout_width="297dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="20dp"
+        android:text="isim"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:layout_editor_absoluteX="67dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="230dp"
+        android:layout_height="206dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/meslektextView"
+        android:layout_width="297dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="20dp"
+        android:text="isim"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintTop_toBottomOf="@+id/isimtextView"
+        tools:layout_editor_absoluteX="67dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
